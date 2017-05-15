@@ -1,11 +1,16 @@
+/* Muhammad H. Sareini */
+
 * {
 	font-family: 'Inconsolata', monospace;
+	text-align: center;
 }
 
 h1 {
 	color: DarkSlateGray;
+	/*text-align: center;*/
 }
 
 h3 {
 	color: FireBrick;
+	/*text-align: center;*/
 }
