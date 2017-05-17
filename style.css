@@ -1,14 +1,32 @@
 /* Muhammad H. Sareini */
 
+/* clear browser formatting and set font -------------------------------------------------------------------------------------------------------*/
 * {
 	font-family: 'Inconsolata', monospace;
-	text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
-h3 {
-	color: FireBrick;
+/* uniform headings -----------------------------------------------------------------------------------------------------------------------------*/
+#heading {
+    text-align: center;
+    margin: 1em;
 }
 
+hr {
+    margin: 0, 1em;
+}
+/* clear email hyperlink format ---------------------------------------------------------------------------------------------------------------*/
+
+.email {
+    color: #fff;
+}
+
+.contact p a {
+    color: #000;
+}
+
+/* navigation bar style ---------------------------------------------------------------------------------------------------------------*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -32,11 +50,72 @@ li a {
     border-right: 1px solid #fff;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
 }
 
-li a.active {
-    background-color: #4CAF50;
+li a:active {
+    background-color: #b642f4;
+}
+
+/* footer style ---------------------------------------------------------------------------------------------------------------*/
+footer {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: #333;
+    clear: left;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    }
+
+/* this fixes the scrolling footer */
+#scrolling_footer {
+    position: static;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+/* home page style */
+.home {
+    text-align: center;
+    min-height: 100%;
+}
+
+h3 {
+    color: FireBrick;
+}
+
+/* contact page style ---------------------------------------------------------------------------------------------------------------*/
+.contact {
+    text-align: center;
+}
+
+/* courses page style */
+.class {
+    margin: 1em 0;
+    padding: 0 2em; 
+}
+
+.courses {
+    margin-bottom: 2em;
+}
+
+.course_name {
+    font-size: 24px;
+    color: #171777;
+}
+
+.course_description {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    line-height: 1.5em;
 }
