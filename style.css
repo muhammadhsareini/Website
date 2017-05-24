@@ -6,7 +6,7 @@
     padding: 0;
 }
 
-.courses, .projects, .home, .contact {                   /* same padding on all pages*/
+.courses, .projects, .home, .contact {                  /* same padding on all pages*/
     margin: 1em;
 }
 
@@ -22,7 +22,7 @@ p {                                                     /* use this to format al
     margin: 1em;
 }
 
-hr {
+hr {                                                    /* I dont know what this is for.....? */
     margin: 0, 1em;
 }
 
@@ -130,10 +130,6 @@ h3 {
     border-bottom: 2px solid #171777;
 }
 
-#bottom {
-    border-bottom: none;
-}
-
 .course_name {
     font-size: 24px;
     color: #171777;
@@ -143,4 +139,28 @@ h3 {
 .skills {                                               /* experience page style */
     margin-bottom: 10px;
     padding-bottom: 1.4em;
+    text-align: center;
+}
+
+.project p {
+    margin-bottom: 1.5em;
+    border-bottom: 2px solid #171777;
+    padding-bottom: 1em;
+}
+
+#border {
+    border-right: 2px solid #171777;
+}
+
+#bottom {                                               /* used in courses also */
+    border-bottom: none;
+}
+
+.column {
+    display: inline-block;
+    vertical-align: top; 
+    margin-left: 0;
+    margin-right: 0;
+    width: 25%;
+    overflow: visible;
 }
