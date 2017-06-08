@@ -83,10 +83,6 @@ body {
     min-height: 100%;
 }
 
-#scrolling_footer {                                     /* temp fix for scrolling footer. Fix this */
-    position: static;
-}
-
 footer p {
     margin: 0;
     padding: 0;
