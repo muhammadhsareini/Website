@@ -7,11 +7,11 @@
 }
 
 .courses, .projects, .home, .contact {                  /* same padding on all pages*/
-    margin: 1em;
+    margin: 3em;
 }
 
 p {                                                     /* use this to format all text  (<p>) to be the same throughout all pages as well */
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 5px;
     margin-bottom: 10px;
     line-height: 1.5em;
@@ -56,6 +56,7 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
     border-right: 1px solid #fff;
+    font-size: 20px;
 }
 
 li a:hover {
@@ -96,11 +97,11 @@ footer p {
     text-align: center;
     padding-bottom: 26px;
 }
-
+/*
 h3 {
-    color: FireBrick;
+    color: FireBrick;                                   Does nothing
 }
-
+*/
 #picture {
     margin-bottom: 2em;
 }
