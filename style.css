@@ -34,6 +34,11 @@ hr {                                                    /* I dont know what this
     color: #000;
 }
 
+body {                                                  /* background image */
+    background-image: url('images/background.png');
+    background-attachment: fixed;
+}
+
 /*-------------------------------------------------------------------------------------------------------------------------------------*/
 ul {                                                    /* navigation bar style */
     list-style-type: none;
